@@ -1,7 +1,10 @@
-# test coverage for  [gulp-inline-css (v3.1.0)](https://github.com/jonkemp/gulp-inline-css#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-inline-css.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-inline-css) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-inline-css.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-inline-css)
+# npmtest-gulp-inline-css
+
+#### test coverage for  [gulp-inline-css (v3.1.0)](https://github.com/jonkemp/gulp-inline-css#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-inline-css.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-inline-css) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-inline-css.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-inline-css)
+
 #### Inline linked css in an html file. Useful for emails.
 
-[![NPM](https://nodei.co/npm/gulp-inline-css.png?downloads=true)](https://www.npmjs.com/package/gulp-inline-css)
+[![NPM](https://nodei.co/npm/gulp-inline-css.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-inline-css)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-gulp-inline-css/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-inline-css/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-inline-css/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-inline-css/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-inline-css/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-inline-css/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-gulp-inline-css/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-gulp-inline-css/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-inline-css/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-gulp-inline-css/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-gulp-inline-css%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-gulp-inline-css/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-inline-css/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-gulp-inline-css/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-inline-css/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-gulp-inline-css%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-inline-css/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-gulp-inline-css/build/test-report.html](https://npmtest.github.io/node-npmtest-gulp-inline-css/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-gulp-inline-css/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-gulp-inline-css/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-gulp-inline-css/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-gulp-inline-css/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-inline-css/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-inline-css/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-gulp-inline-css/build/screenCapture.npmPackageListing.svg)
 
@@ -28,7 +37,6 @@
 {
     "author": {
         "name": "Jonathan Kemp",
-        "email": "kempdogg@gmail.com",
         "url": "http://jonkemp.com/"
     },
     "bugs": {
@@ -76,13 +84,11 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "jonkemp",
-            "email": "kempdogg@gmail.com"
+            "name": "jonkemp"
         }
     ],
     "name": "gulp-inline-css",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/jonkemp/gulp-inline-css.git"
