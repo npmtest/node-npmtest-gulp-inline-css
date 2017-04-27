@@ -1,6 +1,6 @@
 # npmtest-gulp-inline-css
 
-#### test coverage for  [gulp-inline-css (v3.1.0)](https://github.com/jonkemp/gulp-inline-css#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-inline-css.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-inline-css) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-inline-css.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-inline-css)
+#### basic test coverage for  [gulp-inline-css (v3.1.0)](https://github.com/jonkemp/gulp-inline-css#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-inline-css.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-inline-css) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-inline-css.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-inline-css)
 
 #### Inline linked css in an html file. Useful for emails.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-inline-css/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-inline-css/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-inline-css/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-inline-css/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-inline-css/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-inline-css/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-inline-css/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-inline-css/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-inline-css/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-inline-css/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-inline-css/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-inline-css/build/coverage.html/index.html)
 
@@ -99,7 +99,8 @@
         "lint": "gulp lint",
         "test": "mocha"
     },
-    "version": "3.1.0"
+    "version": "3.1.0",
+    "bin": {}
 }
 ```
 
